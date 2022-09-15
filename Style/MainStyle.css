@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Kanit:wght@500&family=Oswald:wght@600&family=Teko:wght@500&family=Ubuntu:wght@500&display=swap');
+
+
 *
 {
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -17,14 +20,22 @@ header
     padding: 1%;
     display: flex;
 	justify-content: center;
-    position: static;
-    background-color: #008037;
+    align-items: center;
+    background-color: #7ED957;
 }
 
-.name a
+header a
 {
-    position: relative;
-    top: 4%;
+    font-size: 450%;
+    font-family: "Ubuntu", "Oswald", "Teko", "Baloo", "Kanit";
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+}
+
+header a:hover
+{
+    font-size: 460%;
 }
 
 nav
@@ -51,8 +62,7 @@ nav a
     text-transform: uppercase;
     letter-spacing: 0px;
     color: #f1f1f1;
-    transition: color 0.5s;
-    transition: font-size 0.5s;
+    transition: 0.5s;
 }
 
 nav a:hover
@@ -105,28 +115,18 @@ footer
     text-transform: uppercase;
     letter-spacing: 0px;
     color: #f1f1f1;
-    transition: color 0.5s;
+    transition: 0.5s;
 }
 
 .links a:hover
 {
     color: #7ED957;
+    font-size: 105%;
 }
 
 .links ul
 {
     list-style-type: none;
-}
-
-.links li
-{
-    font-size: 100%;
-    transition: font-size 0.5s;
-}
-
-.links li:hover
-{
-    font-size: 105%;
 }
 
 .links li:before
